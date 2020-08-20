@@ -48,7 +48,7 @@ def _select_market_code(code):
     0 -sz
     """
     code = str(code)
-    if code[0] in ['5', '6', '9'] or code[:3] in ["009", "126", "110", "201", "202", "203", "204"]:
+    if code[0] in ['5', '6', '9'] or code[:3] in ["009", "126", "110", "201", "202", "203", "204","113"]:
         return 1
     return 0
 
